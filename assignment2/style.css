@@ -1,0 +1,61 @@
+body{
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  font: cursive 2rem;
+}
+
+button{
+  background-color:coral;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  font-size: 2.5rem;
+  animation: move 10s linear 1s  infinite;
+  border-radius: 60px;;
+  width: 120px;
+}
+
+h3{
+  font-size: 3rem;
+  font-family: cursive ;
+  color: navy;
+}
+
+p{
+  font-size: 2rem;
+  color: darkblue;
+  font-weight: bold;
+  text-align: center;
+}
+
+@keyframes move{
+  0%,100%{
+    transform: translate(0,0);
+  }  
+  90%{
+    transform : translate(-70vh,0);
+  }
+  25%{
+    transform : translate(70vh,0);
+  }
+  50%{
+    transform: translate(-70vh,30vw);
+  }
+  75%{
+    transform: translate(70vh,30vw);
+  }
+}
