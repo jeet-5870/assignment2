@@ -7,8 +7,8 @@
     this.style.display = "none";
     setTimeout(()=>{
       document.getElementById("result").innerHTML="";
-      setTimeout(restart, 2000);
-    },1000)
+      setTimeout(restart, 1000);
+    },3000)
   }
 
   function restart(){
