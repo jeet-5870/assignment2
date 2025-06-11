@@ -24,7 +24,7 @@
       let maxWidth=window.innerWidth - box.offsetWidth;
       let maxHeight = window.innerHeight - box.offsetHeight;
       let randomX = Math.floor(Math.random()*maxWidth);
-      let randomY = Math.floor(Math.random()*maxheight);
+      let randomY = Math.floor(Math.random()*maxHeight);
 
       box.style.left=`${randomX}px`;
       box.style.top=`${randomY}px`;
