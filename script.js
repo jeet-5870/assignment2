@@ -21,10 +21,10 @@
     let delay = Math.floor(Math.random() * 5000) + 1000;
     setTimeout(function() {
       startTime = Date.now();
-      let maxWidth=window.innerWidth - box.offsetWidth;
-      let maxHeight = window.innerHeight - box.offsetHeight;
-      let randomX = Math.floor(Math.random()*maxWidth);
-      let randomY = Math.floor(Math.random()*maxHeight);
+      let maxWidth=window.innerWidth - box.offsetWidth-10;
+      let maxHeight = window.innerHeight - box.offsetHeight-10;
+      let randomX = Math.floor(10,Math.random()*maxWidth);
+      let randomY = Math.floor(10,Math.random()*maxHeight);
 
       box.style.left=`${randomX}px`;
       box.style.top=`${randomY}px`;
