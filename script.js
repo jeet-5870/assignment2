@@ -21,6 +21,15 @@
     let delay = Math.floor(Math.random() * 5000) + 1000;
     setTimeout(function() {
       startTime = Date.now();
+      let maxWidth=window.innerWidth - box.offsetWidth;
+      let maxHeight = window.innerHeight - box.offsetHeight;
+      let randomX = Math.floor(Math.random()*maxWidth);
+      let randomY = Math.floor(Math.random()*maxheight);
+
+      box.style.left=`${randomX}px`;
+      box.style.top=`${randomY}px`;
+      box.style.display="block;
+
       document.getElementById("box").style.display = "block";
     }, delay);
   }
