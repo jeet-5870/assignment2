@@ -28,7 +28,7 @@
 
       box.style.left=`${randomX}px`;
       box.style.top=`${randomY}px`;
-      box.style.display="block;
+      box.style.display="block";
 
       document.getElementById("box").style.display = "block";
     }, delay);
