@@ -1,0 +1,39 @@
+body{
+  background-color: aquamarine;
+  height: 100%;
+  overflow: hidden;
+}
+
+div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  font: cursive 2rem;
+}
+
+#box{
+  position: absolute;
+  background-color: navy;
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+h3{
+  font-size: 3rem;
+  font-family: cursive ;
+  color: navy;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p{
+  font-size: 2rem;
+  color: darkblue;
+  font-weight: bold;
+  text-align: center;
+}
