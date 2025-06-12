@@ -1,39 +1,51 @@
-body{
-  background-color: aquamarine;
-  height: 100%;
-  overflow: hidden;
+/* Body Styling */
+body {
+    background: linear-gradient(135deg, aquamarine, #5FD3BC); /* Smooth gradient */
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
-div{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 40px;
-  font: cursive 2rem;
+/* General Styling for Div */
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-family: cursive;
+    font-size: 2rem;
 }
 
-#box{
-  position: absolute;
-  background-color: navy;
-  width: 10rem;
-  height: 10rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;  
+/* Centered Box */
+#box {
+    position: absolute;
+    background: navy;
+    width: 12rem; /* Slightly larger */
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px; /* Smooth corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow */
 }
 
-h3{
-  font-size: 3rem;
-  font-family: cursive ;
-  color: navy;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/* Headings */
+h3 {
+    font-size: 3rem;
+    font-family: cursive;
+    color: navy;
+    text-align: center;
 }
 
-p{
-  font-size: 2rem;
-  color: darkblue;
-  font-weight: bold;
-  text-align: center;
+/* Paragraph Styling */
+p {
+    font-size: 2rem;
+    color: darkblue;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px; /* Prevents overlap */
 }
