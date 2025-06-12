@@ -4,7 +4,6 @@
       document.getElementById("box").style.display = "none";
       let endTime = Date.now();
       let timeTaken = (endTime - startTime) / 1000;
-      document.getElementById("body").style.backgroundColor = randomColor();
       document.getElementById("result").innerHTML = `You clicked the button in ${timeTaken.toFixed(2)} seconds.`;
       this.style.display = "none";
       setTimeout(()=>{
